@@ -15,11 +15,31 @@
 
 <body>
 
-<div id="target">Loading...</div>
+<div id="target"></div>
+
+
 <script id="template" type="x-tmpl-mustache">
-<img src = {{logo}}>
+
+
+	<div class = "online container" style = "background-image: url({{banner}})">
+	
+	<a target = '_blank' href = {{link}}>
+	<div class = "words">
+	
+	
+	<img src = {{logo}}>
+
+	<h1>{{name}}</h1>
+
+	<p>{{status}}</p>
+	
+	</div>
+	</a>
+	</div>
+
+
+
 </script>
-</body>
 
 
 
