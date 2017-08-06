@@ -37,3 +37,24 @@ h1 {
 a {
 	text-decoration: none;
 }
+
+
+.status {
+	float: right;
+	margin-right: 20px;
+	margin-top: 0px;	
+}
+
+.online .status {
+	color: green;
+}
+
+.offline .status {
+	color: red;
+}
+
+
+
+
+
+

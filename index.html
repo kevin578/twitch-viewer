@@ -18,10 +18,11 @@
 <div id="target"></div>
 
 
+
 <script id="template" type="x-tmpl-mustache">
 
 
-	<div class = "online container" style = "background-image: url({{banner}})">
+	<div id = {{id}} class = "container" style = "background-image: url({{banner}})">
 	
 	<a target = '_blank' href = {{link}}>
 	<div class = "words">
@@ -30,6 +31,8 @@
 	<img src = {{logo}}>
 
 	<h1>{{name}}</h1>
+
+	<p class = 'status'></p>
 
 	<p>{{status}}</p>
 	
